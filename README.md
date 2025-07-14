@@ -43,3 +43,5 @@ Change detection: Helps Terraform know when the zip has changed so it can re-dep
 AWS validation: AWS uses the hash to verify the integrity of the uploaded zip file.
 
 Without it, Terraform might not trigger an update, even if the zip content changes.
+
+
